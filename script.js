@@ -113,7 +113,7 @@ const updateProgressBar = (e) => {
         //calculate display for currentTime
         const currentTimeMinutes = Math.floor(currentTime / 60);
         let currentTimeSeconds = Math.floor(currentTime % 60);
-        if(currentTimeSeconds < 10){
+        if(currentTimeSeconds < 2){
             currentTimeSeconds = `0${currentTimeSeconds}`;
         }
 
